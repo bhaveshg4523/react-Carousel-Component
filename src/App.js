@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import PureReactCarousel from "./components/PureReactCarousel";
+import ReactslickComponent from "./components/ReactslickComponent";
+import SwiperJs from "./components/SwiperJs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full h-full">
+      <ReactslickComponent />
+      <PureReactCarousel />
+      <SwiperJs />
     </div>
   );
 }
